@@ -1,0 +1,80 @@
+.navbar {
+   padding-left: 2rem;
+}
+
+body {
+    overflow-x:hidden;
+}
+
+ .navbar-brand {
+  
+    font-family: 'Rajdhani', sans-serif;
+     font-size: 5rem;
+   color: blueviolet;
+ }
+
+
+ .nav-link {
+     font-size: 1rem;
+     font-weight: bold;
+     font-family: 'Rajdhani', sans-serif;
+
+     margin-left : 2em;
+     margin-right : 3em;
+     color: grey;
+     
+ }
+
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+margin-left: 4rem;
+margin-top: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Playfair Display', serif;
+   
+}
+
+h1:hover {
+    color: purple;
+	transition: transform .2s; 
+	transform: scale(1.2);
+  }
+
+
+
+.feature-box {
+   border: 1px solid;
+   padding: 6%;
+}
+
+
+.naslov {
+text-align: left;
+font-family: 'Rajdhani', sans-serif;
+font-size: 1.5rem;
+}
+
+footer {
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+
+
+}
+
+@media (max-width: 768px) {
+
+    h1:hover {
+        color: purple;
+        transition: transform .2s; 
+        transform: scale(1);
+      }
+
+
+    
+  }
